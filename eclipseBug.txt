@@ -1,0 +1,17 @@
+export SWT_GTK3=0  in .bashrc
+
+and
+edit eclipse.ini
+before the --vmargs
+put --lancher.GTK_version
+
+
+
+org.eclipse.epp.package.common
+--launcher.defaultAction
+openFile
+--launcher.defaultAction
+openFile
+--launcher.GTK_version
+
+open from ternimal

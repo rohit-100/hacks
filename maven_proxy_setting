@@ -1,0 +1,39 @@
+save this file in ~/.m2.settings.xml
+
+
+
+<settings>
+  <proxies>
+    <proxy>
+      <id>httpproxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>172.31.102.29</host>
+      <port>3128</port>
+      <username>edcguest</username>
+      <password>edcguest</password>
+      <nonProxyHosts>localhost</nonProxyHosts>
+    </proxy>
+      <proxy>
+      <id>httpsproxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>172.31.102.29</host>
+      <port>3128</port>
+      <username>edcguest</username>
+      <password>edcguest</password>
+      <nonProxyHosts>localhost</nonProxyHosts>
+    </proxy>
+    
+    <proxy>
+      <id>socksproxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>172.31.102.29</host>
+      <port>3128</port>
+      <username>edcguest</username>
+      <password>edcguest</password>
+      <nonProxyHosts>localhost</nonProxyHosts>
+    </proxy>
+ </proxies>
+</settings>

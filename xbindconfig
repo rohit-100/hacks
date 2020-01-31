@@ -1,0 +1,16 @@
+first add the keybinding in .xbindkeys
+"command"
+  shorcut
+ 
+ e.g
+ "xterm"
+  control + shift + t
+  
+ then save
+ 
+killall xbindkeys                   ## to remove all bindings
+xbindkeys -f .xbindkeys             ## to forcely attach the config file
+
+
+
+now you can use the key bindings

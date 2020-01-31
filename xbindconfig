@@ -1,4 +1,4 @@
-first add the keybinding in .xbindkeys
+first add the keybinding in .xbindkeysrc
 "command"
   shorcut
  
@@ -9,7 +9,7 @@ first add the keybinding in .xbindkeys
  then save
  
 killall xbindkeys                   ## to remove all bindings
-xbindkeys -f .xbindkeys             ## to forcely attach the config file
+xbindkeys -f .xbindkeysrc             ## to forcely attach the config file
 
 
 

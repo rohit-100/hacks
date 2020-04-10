@@ -1,0 +1,6 @@
+virtualenv -p python3 path_to_dir
+source bin/activate
+deactivate
+
+
+pip freeze // to get list fo installed pacakage

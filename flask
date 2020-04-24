@@ -1,0 +1,3 @@
+ to enable template syntax in vim
+ :setfiletype htmldjango
+ 
